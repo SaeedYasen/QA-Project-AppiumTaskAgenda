@@ -33,7 +33,7 @@ public class SettingsVibrate extends AppBasePage {
     }
     public void ClickSettings(){
         ClickMenu();
-        this.settings=driver.findElement(By.xpath(SETTINGS));
+        this.settings=(MobileElement) wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(SETTINGS)));
         settings.click();
     }
     public void CheckVibrate(){
