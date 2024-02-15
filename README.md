@@ -1,22 +1,17 @@
-We will be testing the following App:
-Claudivan Taskagenda
-AAA
-You should adhere to the Arrange, Act, Assert structure
-Test isolation (independence)
-All tests should be independent and not affect or be affected by other tests
-Parallelism
-Your tests should run in parallel
-Assertions
-Use the most accurate assertions
-Reporting
-Test results should be presented using allure report
-Infrastructure
-Code should be structured in layers (infra, logic, tests)
-Selenium should not be revealed to the tests layer
-Use POM
-GIT
-Use pull requests and have code reviews
-Use informative commit messages
-Stability
-Make sure your tests pass consistently, no flaky tests!
-Tests may fail if there are actual bugs in the system
+Claudivan Taskagenda AAA Test Automation
+Introduction
+This repository contains automated tests for the Claudivan Taskagenda app. The tests are designed to ensure the reliability and stability of the application through thorough testing practices.
+
+Project Structure
+Arrange, Act, Assert Structure: Each test follows the Arrange, Act, Assert structure for clarity and organization.
+Test Isolation: All tests are independent and do not affect or rely on the outcome of other tests.
+Parallelism: Tests are configured to run in parallel to optimize execution time.
+Assertions: Accurate assertions are used to validate expected outcomes.
+Reporting: Test results are presented using the Allure reporting framework for comprehensive reporting.
+Code Structure
+Layered Architecture: Code is structured into layers including infrastructure, logic, and tests.
+POM (Page Object Model): Page Object Model design pattern is implemented for maintainability and readability.
+Development Workflow
+Consistent Tests: Tests are designed to pass consistently without flakiness.
+Bug Detection: Tests may fail if actual bugs are found in the system, aiding in bug detection and resolution.
+
