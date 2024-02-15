@@ -1,4 +1,4 @@
-Claudivan Taskagenda AAA Test Automation
+Claudivan Taskagenda Test Automation
 Introduction
 This repository contains automated tests for the Claudivan Taskagenda app. The tests are designed to ensure the reliability and stability of the application through thorough testing practices.
 
